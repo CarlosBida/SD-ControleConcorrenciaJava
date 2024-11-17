@@ -6,8 +6,7 @@ public class Banco {
             return false;
         }
         double novoSaldo = saldo - valor;
-        System.out.println(Thread.currentThread().getName() +
-        " sacou R$"+valor+". Saldo após saque: R$"+novoSaldo);
+        System.out.println(Thread.currentThread().getName() + " sacou R$ "+valor+". Saldo após saque: R$"+novoSaldo);
         conta.setSaldo(novoSaldo);
         return true;
     }
