@@ -89,3 +89,21 @@ public class Conta {
   // ... idem para debitarValor()
 }
 ```
+
+### Semáforos
+Permite controlar o número de acessos simultâneos a um dado ou recurso
+
+#### Métodos da classe Semaphore
+* Semaphore(int acessos [, boolean ordem]): construtor; parâmetros definem o número de acessos simultâneos possíveis e se a ordem de
+liberação de threads em espera será FIFO
+* acquire(): solicita acesso a um dado ou recurso, entrando em espera se todos os direitos de acesso estiverem sendo usados
+* release(): libera um direito de acesso
+
+### Deadlock
+![image](https://github.com/user-attachments/assets/cffa1e98-ae6e-419e-b5e4-fcf51e80f07d)
+
+* Caso os cinco filósofos peguem o garfo da esquerda, nenhum deles conseguirá comer
+* Esta situação é chamada de deadlock 
+* Deadlock ocorre quando, em um grupo de processos/threads em espera, uma aguarda o término da outra para que possa prosseguir
+* Em Java, as threads ficarão em espera indefinidamente
+* Algumas linguagens/sistemas detectam o deadlock e reportam exceções
