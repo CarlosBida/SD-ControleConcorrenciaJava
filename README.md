@@ -16,7 +16,8 @@ Sincronização de Método:
 * O objeto usado na invocação é bloqueado para uso da thread que invocou o método*
 * Se o método for static, a classe é bloqueada
 * Métodos não sincronizados e atributos ainda podem ser acessados
-´´´Java
+  
+´´´java
 public synchronized void metodo (int param) {
 // código protegido
 }
