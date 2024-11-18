@@ -107,3 +107,13 @@ liberação de threads em espera será FIFO
 * Deadlock ocorre quando, em um grupo de processos/threads em espera, uma aguarda o término da outra para que possa prosseguir
 * Em Java, as threads ficarão em espera indefinidamente
 * Algumas linguagens/sistemas detectam o deadlock e reportam exceções
+
+## Atividade Prática
+1. Criar um respositório com o nome: **SD-ControleConcorrenciaJava**;
+2. Crie um codespace, acesse as instruções de como criar um codespace [aqui](https://docs.github.com/pt/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository);
+3. Abra um terminal do codespace criado,  clone o repositório github, acesse as instruçõesde como clonar o repostório [aqui](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository);
+4. Mover os arquivos que foram baixados dentro da pasta SD-SincronizacaoThreadsJava para a pasta raiz do novo repositório;
+5. Compilar os programas das quatro pastas: Concorrente, Lock, RwLock e Synk;
+6. Executar 3 vezes cada programa Familia.java de nas pastas, de modo que ele gere uma log da execução;
+7. Realize o Commit de todos os arquivos para o repostório, juntamente com os prints de todas as execuções;
+8. Os programas apresentam erros de desenvolvimento, que geraram erro de compilação. Leia as mensagem e corrigas os problemas. Realize o commit do programa corrigido em seu repositório. 
