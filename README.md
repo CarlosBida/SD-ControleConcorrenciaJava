@@ -116,4 +116,6 @@ liberação de threads em espera será FIFO
 5. Compilar os programas das quatro pastas: Concorrente, Lock, RwLock e Synk;
 6. Executar 3 vezes cada programa Familia.java de nas pastas, de modo que ele gere uma log da execução;
 7. Realize o Commit de todos os arquivos para o repostório, juntamente com os prints de todas as execuções;
-8. Os programas apresentam erros de desenvolvimento, que geraram erro de compilação. Leia as mensagem e corrigas os problemas. Realize o commit do programa corrigido em seu repositório. 
+8. Realizar as analises das execuções e incluir o texto no README.md.
+OBS: Os programas apresentam erros de desenvolvimento, que geraram erro de compilação. Leia as mensagem e corrigas os problemas. Realize o commit do programa corrigido em seu repositório.
+ 
