@@ -2,10 +2,10 @@ public class Conta {
     
     private double saldo = 0;
     
-    /** Creates a new instance of Conta */
+    /** Cria uma nova instância de Conta */
     public Conta(double saldo) {
         this.saldo = saldo;
-        System.out.println("Conta criada. Saldo inicial: R$"  saldo);
+        System.out.println("Conta criada. Saldo inicial: R$" + saldo);
     }
     
     public synchronized double getSaldo() {
@@ -18,11 +18,11 @@ public class Conta {
     
     public synchronized double debitarValor(double valor) {
         if (this.saldo < valor) {
-            System.out.println("Saldo insuficiente para saque para "+ Thread.currentThread().getName() );
+            System.out.println("Saldo insuficiente para saque para " + Thread.currentThread().getName());
             return -1;
         } else {
             this.saldo -= valor;
-            System.out.println("Saque realizado com sucesso para "+ Thread.currentThread().getName() );
+            System.out.println("Saque realizado com sucesso para " + Thread.currentThread().getName());
             return this.saldo;
         }
     }
